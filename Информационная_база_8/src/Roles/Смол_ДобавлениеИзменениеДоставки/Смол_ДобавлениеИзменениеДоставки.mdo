@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd3cc2c6-a052-4a52-afa4-ff1d25b08b27">
+  <name>Смол_ДобавлениеИзменениеДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение доставки</value>
+  </synonym>
+</mdclass:Role>

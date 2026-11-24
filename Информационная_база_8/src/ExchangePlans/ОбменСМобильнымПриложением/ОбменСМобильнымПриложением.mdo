@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc98a39f-19c6-470b-aa3f-736cc78fc4f8" thisNode="23c5fc91-b6da-4faa-a7ac-ed7d140ac948">
+  <producedTypes>
+    <objectType typeId="1f102fe9-8fb2-4e4e-9295-701c072cb1da" valueTypeId="751a34eb-c77e-49a8-831b-90eb467ddc5f"/>
+    <refType typeId="83af3fde-2b8e-4ab2-99ef-d7b5fdc3e944" valueTypeId="78d70faa-9d09-448b-8999-328e1b079327"/>
+    <selectionType typeId="bf7d43be-adcb-4540-956b-930b1c813be8" valueTypeId="efef3ab0-c91e-4553-80cb-39334b34a7a4"/>
+    <listType typeId="a00f9344-b499-4d56-a40e-12763af9eb8b" valueTypeId="21573792-6876-4d0a-a966-e83f67a8c07a"/>
+    <managerType typeId="e73fc3cc-a95c-4848-96d9-39025d2cc025" valueTypeId="bc650db6-9276-4d48-8992-5990d723eb00"/>
+  </producedTypes>
+  <name>ОбменСМобильнымПриложением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильным приложением</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменСМобильнымПриложением.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменСМобильнымПриложением.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>36</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>36</descriptionLength>
+  <content>
+    <mdObject>Document.Смол_Доставка</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="82ff802b-5245-4eba-955e-8176ad767912">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ExchangePlan>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1429d75-d733-4510-bc02-abeb10c7ae3c">
+  <name>Доработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Смол_КонтактныеЛица</content>
+  <content>Catalog.Смол_Должности</content>
+  <content>Document.ЗаказПокупателя</content>
+  <content>Document.ОплатаОтПокупателя</content>
+  <content>Document.ОплатаПоставщику</content>
+  <content>Document.ПоступлениеТоваровУслуг</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.Смол_Доставка</content>
+  <content>Catalog.Смол_ДоставкаПрисоединенныеФайлы</content>
+  <content>Enum.Смол_СтатусЗаказа</content>
+  <content>ExchangePlan.ОбменСМобильнымПриложением</content>
+</mdclass:Subsystem>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b224faa-9bc2-4707-81a6-d15fbe0f5987">
+  <name>Mobile</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mobile</value>
+  </synonym>
+  <rootURL>mobile</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="2b5dbdb8-0dd0-446d-a3c9-98db370901f8">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="61c35727-9623-4cab-b77c-65d476138905">
+      <name>ПроверитьСоединение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проверить соединение</value>
+      </synonym>
+      <handler>PingПроверитьСоединение</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="304ffbd7-573d-4a34-9830-ee612a84bf39">
+    <name>Exchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange</value>
+    </synonym>
+    <template>/exchange</template>
+    <methods uuid="229365ee-dbff-461d-868f-78b4f8ee0144">
+      <name>ВыполнитьОбмен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнить обмен</value>
+      </synonym>
+      <handler>ВыполнитьОбмен</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
